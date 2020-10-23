@@ -27,16 +27,16 @@
         align-items: center;
     }
     .main-article {
-        width: 75%;
+        flex: 3;
     }
     .sidebar {
-        width: 25%;
+        flex: 1;
     
     }
     .section2 {
         display: flex;
         flex: auto;
-        height: 200px;
+        height: max-content;
     }
     .section3 {
         display: flex;
